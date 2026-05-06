@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>聯絡我們 | AURA Beauty</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <nav id="main-nav">
+        <div class="logo">
+            <a href="index.html"><img src="assets/logo.png" alt="AURA Beauty"></a>
+        </div>
+        <ul class="nav-links">
+            <li><a href="index.html">首頁</a></li>
+            <li><a href="about.html">公司簡介</a></li>
+            <li><a href="category-face.html">底妝</a></li>
+            <li><a href="category-eye.html">眼妝</a></li>
+            <li><a href="category-lip.html">唇彩</a></li>
+            <li><a href="category-cheek.html">頰妝</a></li>
+            <li><a href="category-tools.html">卸妝與工具</a></li>
+            <li><a href="contact.html" style="color: #D4AF37;">聯絡我們</a></li>
+        </ul>
+    </nav>
+
+    <header class="section-padding" style="background: #f9f9f9; text-align: center; margin-top: 80px;">
+        <h1 style="font-size: 3rem;">與我們聯繫</h1>
+        <p style="color: #666;">我們隨時準備為您解答任何美妝疑問</p>
+    </header>
+
+    <section class="section-padding">
+        <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 4rem;">
+            <div>
+                <h2 class="brand-font" style="margin-bottom: 1.5rem;">聯絡資訊</h2>
+                <p style="margin-bottom: 1rem;"><strong>地址：</strong> 台北市信義區信義路五段 7 號 (101 大樓)</p>
+                <p style="margin-bottom: 1rem;"><strong>電話：</strong> +886-2-1234-5678</p>
+                <p style="margin-bottom: 1rem;"><strong>Email：</strong> contact@aurabeauty.com</p>
+                <p style="margin-bottom: 1rem;"><strong>服務時間：</strong> 週一至週五 09:00 - 18:00</p>
+            </div>
+            <div>
+                <form onsubmit="event.preventDefault(); alert('感謝您的訊息！我們將儘快回覆您。');">
+                    <div style="margin-bottom: 1.5rem;">
+                        <input type="text" placeholder="您的姓名" style="width: 100%; padding: 1rem; border: 1px solid #ddd;" required>
+                    </div>
+                    <div style="margin-bottom: 1.5rem;">
+                        <input type="email" placeholder="電子郵件" style="width: 100%; padding: 1rem; border: 1px solid #ddd;" required>
+                    </div>
+                    <div style="margin-bottom: 1.5rem;">
+                        <textarea placeholder="您的訊息" style="width: 100%; padding: 1rem; border: 1px solid #ddd; height: 150px;" required></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-gold" style="width: 100%;">送出訊息</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="footer-bottom">
+            &copy; 2026 AURA Beauty. All Rights Reserved.
+        </div>
+    </footer>
+
+    <script src="data.js"></script>
+    <script src="app.js"></script>
+</body>
+</html>

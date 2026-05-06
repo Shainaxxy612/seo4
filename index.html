@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AURA Beauty | 頂級女性彩妝</title>
+    <meta name="description" content="探索 AURA Beauty 的頂級彩妝系列，從底妝到唇彩，為您打造無瑕妝容。">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <nav id="main-nav">
+        <div class="logo">
+            <a href="index.html"><img src="assets/logo.png" alt="AURA Beauty"></a>
+        </div>
+        <ul class="nav-links">
+            <li><a href="index.html">首頁</a></li>
+            <li><a href="about.html">公司簡介</a></li>
+            <li><a href="category-face.html">底妝</a></li>
+            <li><a href="category-eye.html">眼妝</a></li>
+            <li><a href="category-lip.html">唇彩</a></li>
+            <li><a href="category-cheek.html">頰妝</a></li>
+            <li><a href="category-tools.html">卸妝與工具</a></li>
+            <li><a href="contact.html">聯絡我們</a></li>
+        </ul>
+        <div class="nav-icons">
+            <a href="#">🔍</a>
+            <a href="#">👤</a>
+            <a href="#">🛍️</a>
+        </div>
+    </nav>
+
+    <header class="hero">
+        <div class="hero-content">
+            <h1>璀璨自我，從 AURA 開始</h1>
+            <p>定義屬於您的美麗光譜</p>
+            <a href="category-face.html" class="btn">立即探索</a>
+        </div>
+    </header>
+
+    <section class="section-padding">
+        <h2 class="section-title">探索系列</h2>
+        <div class="category-grid">
+            <a href="category-face.html" class="category-card">
+                <img src="assets/products/face_foundation.png" alt="底妝">
+                <div class="category-overlay">
+                    <h3>底妝系列</h3>
+                </div>
+            </a>
+            <a href="category-eye.html" class="category-card">
+                <img src="assets/products/eye_palette.png" alt="眼妝">
+                <div class="category-overlay">
+                    <h3>眼妝系列</h3>
+                </div>
+            </a>
+            <a href="category-lip.html" class="category-card">
+                <img src="assets/products/lip_lipstick.png" alt="唇彩">
+                <div class="category-overlay">
+                    <h3>唇彩系列</h3>
+                </div>
+            </a>
+        </div>
+    </section>
+
+    <section class="section-padding" style="background: #fdfafb;">
+        <h2 class="section-title">熱銷推薦</h2>
+        <div class="product-grid" id="featured-products">
+            <!-- Featured products will be loaded here via app.js -->
+        </div>
+    </section>
+
+    <footer>
+        <div class="footer-content">
+            <div class="footer-section">
+                <h4>關於 AURA</h4>
+                <p>我們致力於為每一位女性提供最頂級的彩妝體驗，結合科技與美學，展現獨一無二的魅力。</p>
+            </div>
+            <div class="footer-section">
+                <h4>快速連結</h4>
+                <ul>
+                    <li><a href="about.html">公司簡介</a></li>
+                    <li><a href="contact.html">聯絡我們</a></li>
+                    <li><a href="#">隱私政策</a></li>
+                    <li><a href="#">退換貨政策</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h4>關注我們</h4>
+                <p>訂閱我們的電子報，獲取最新優惠與彩妝教學。</p>
+                <div style="margin-top: 1rem; display: flex; gap: 10px;">
+                    <input type="email" placeholder="您的電子信箱" style="padding: 0.5rem; flex: 1;">
+                    <button class="btn btn-gold" style="padding: 0.5rem 1rem;">訂閱</button>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            &copy; 2026 AURA Beauty. All Rights Reserved.
+        </div>
+    </footer>
+
+    <script src="data.js"></script>
+    <script src="app.js"></script>
+</body>
+</html>
